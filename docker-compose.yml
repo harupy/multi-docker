@@ -23,8 +23,8 @@ services:
       - REDIS_PORT=6379
       - PGUSER=postgres
       - PGHOST=postgres
-      - PGDATABASE=postgres
-      - PGPASSWORD=porstgres_password
+      - PGDATABASE=fibvalues
+      - PGPASSWORD=porstgrespassword
       - PGPORT=5432
   client:
     build:
